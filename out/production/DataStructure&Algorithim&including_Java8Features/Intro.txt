@@ -1,0 +1,43 @@
+*-  Data Structure is all about storing data and how we are gonna retrieve it.
+*- if the data is properly structured we can use some of the searching technique and sorting technique.
+
+- Concept of List  >>> -  In computer science, a list or sequence is an abstract data type that represents a countable num ber of
+                          ordered values, where the same value may occur more than once.
+
+- Concept of Stack >>> - In computer science, a stack is an abstract data type that serves as a collection of elements,
+                         with two principal operations:
+                         >> push -> which adds an element to the collection, and
+                         >> pop ->  which removes the most recently added element that was not yet removed.
+
+understanding DA will help you to work with frameworks
+
+--------------------------------------------------------------------
+Abstract Data Type in Data Structure
+--------------------------------------------------------->>>>>>>>>>>
+ - List - if you have a collection of data with you where you are going to add or remove data or delete or fetch data we can us List
+        -  List implementation is java is Arraylist or LinkedList
+ - Stack - concept of last in first out - example stack of plate. the last plate you kept you can take that first out.
+         - "peek" check the element and "pop" means removes the element
+ - Queue - concept of First in First out
+ - Map - we use Key to fetch the value using Map
+        - Map implementation is java HashMap
+
+Note :: The difference between wrapper class and primitive type in Java
+        The wrapper class is used to convert a primitive type to an object and object back to a primitive type while a primitive type
+        is a predefined data type provided by the Java programming language.
+        Example : ->
+         * wrapper class is used to convert a primitive type to an object
+        Integer intobj = new Integer(10);
+        int i = intobj.intValue();
+        System.out.println(i);
+
+        object back to a primitive type
+        int num1 = 25;
+        Integer inobj = Integer.valueOf(num1);
+        System.out.println(inobj);
+
+--------------------------------------------------------
+--------------------------------------------------------
+ArrayList wastes memory if you are not using it example u use 2 element from the 10 element we are wasting spaces of 8 element.
+In the ArrayList once we define the size of an array we cannot expand or shrink it.
+To solve the issue we can use LinkedList..

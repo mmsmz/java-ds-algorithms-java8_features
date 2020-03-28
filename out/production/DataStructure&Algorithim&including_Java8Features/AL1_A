@@ -1,0 +1,24 @@
+// Agenda for this couse (PART ONE)
+------------------------------------
+- Arrays
+- Linked lists
+- Stacks and queses
+- Binary search trees
+- Balanced trees: AVL and red-black trees
+- Splay trees
+- Binary heaps
+- Hashtables
+- Tries
+
+Why do we use Data structures?
+- Data Structures : to store data in an efficient way
+- We often have the intuition -> if we want to make an algorithm fast, then we have to optimize it. We have write it in
+  C++ or C and it is going to be the fasted algorithm possible.
+- And we have to avoid nested forloops and to make every calculation as fast as possible.
+- But basically algorithms can be boosted up by proper data structures.
+- Data structures make sure running time will be better
+
+Abstract Data Types
+--------------------
+Basically this is the model (logical description) for a certain data structure
+

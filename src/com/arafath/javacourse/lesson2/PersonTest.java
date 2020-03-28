@@ -1,8 +1,5 @@
 package com.arafath.javacourse.lesson2;
 
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-
 public class PersonTest {
 
 //    @Test

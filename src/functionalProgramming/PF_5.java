@@ -1,7 +1,6 @@
 package functionalProgramming;
 
 import java.awt.image.AreaAveragingScaleFilter;
-import java.nio.channels.Selector;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
